@@ -1,0 +1,33 @@
+html,
+body,
+/* #app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'SourceHanSansCN-Normal', Courier, monospace;
+} */
+
+#app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'PingFang';
+    src:url('./PingFang.ttf');
+  }
+
+  @font-face{
+    font-family: 'PingFang';
+    src:url('./PingFang.ttf');
+  }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #3f51b5, transparent);
+  border-radius: 3px;
+}
